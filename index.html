@@ -1,50 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Meeting minutes for Team Cupcake's site planning meeting">
+    <meta name="author" content="Team Cupcake">
     <title>Team Cupcake Meeting Notes</title>
-    <h1>Team Cupcake Meeting Notes</h1>
-    <h2>Topic: Cupcake Site</h2>
-    <h3>Meeting Date: April 14, 2026</h3>
-    <h3>Attendees:</h3>
-    <ul>
-      <li>John Doe</li>
-      <li>Jane Smith</li>
-      <li>Bob Johnson</li>
-    </ul>
-
-    <h3>Agenda</h3>
-    <ol>
-      <li>Review of current cupcake flavors</li>
-      <li>Discussion on site design</li>
-      <li>Assignment of tasks for site development</li>
-    </ol>
-
-        <!-- Diagrams/whiteboard pictures -->
-    <h3>Diagrams & Whiteboard Captures</h3>
-
-    <figure>
-        <img src="cupcake_whiteboard.png" alt="Whiteboard sketch of cupcake" width="500">
-        <figcaption>Created by Jane Smith</figcaption>
-    </figure>
-    <figure>
-        <img src="cupcake.png" alt="Cupcake site design mockup" width="500">
-        <figcaption>Proposed site design</figcaption>
-    </figure>
-
-    <!-- Audio recording -->
-    <h3>Meeting Audio Recording</h3>
-    <audio controls>
-      <source src="850414__newlocknew__wind_winterevening-in-the-yardwind-in-the-treesbushesfencegusts.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-
-    <!-- Video recording -->
-    <h3>Meeting Video Recording</h3>
-    <video controls width="600">
-        <source src="logrocket-session.mp4" type="video/mp4">
-        Your browser does not support the video element.
-    </video>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
   </head>
   <body>
+
+    <header>
+      <h1>Team Cupcake Meeting Notes</h1>
+      <p><em>Planning the world's best cupcake site</em></p>
+      <nav>
+        <ul>
+          <li><a href="#attendance">Attendance</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#unfinished">Unfinished Business</a></li>
+          <li><a href="#new">New Business</a></li>
+          <li><a href="#comments">Comments</a></li>
+          <li><a href="#media">Media</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <section>
+        <h2>Topic: Cupcake Site</h2>
+        <h3>Meeting Date: April 14, 2026</h3>
+        <p>This was our <strong>kickoff</strong> meeting to plan the <em>Team Cupcake</em> website.</p>
+        <hr>
+      </section>
+
+      <section id="attendance">
+        <h3>Attendees</h3>
+        <ul>
+          <li><b>John Doe</b> — Project Lead</li>
+          <li><b>Jane Smith</b> — Designer</li>
+          <li><i>Bob Johnson</i> — Developer (joined late)</li>
+        </ul>
+      </section>
+
+      <section id="agenda">
+        <h3>Agenda</h3>
+        <ol>
+          <li>Review of current cupcake flavors</li>
+          <li>Discussion on site design</li>
+          <li>Assignment of tasks for site development</li>
+        </ol>
+      </section>
+
+      <section id="unfinished">
+        <h3>Unfinished Business</h3>
+        <details>
+          <summary>Click to expand carry-over items</summary>
+          <ul>
+            <li>Finalize the <strong>vanilla vs. red velvet</strong> debate</li>
+            <li>Jane to share final color palette</li>
+          </ul>
+        </details>
+      </section>
+
+      <section id="new">
+        <h3>New Business</h3>
+        <ul>
+          <li>Should we add a <strong>seasonal flavors</strong> page?</li>
+          <li>Decide on hosting provider</li>
+          <li>Set launch date</li>
+        </ul>
+      </section>
+
+      <section id="comments">
+        <h3>Comments, Questions &amp; Concerns</h3>
+        <div>
+          <p><span>Bob:</span> Worried about image file sizes.<br>
+          Suggests we compress all photos before upload.</p>
+          <p><span>Jane:</span> Wants to do a taste-test before final flavor list.</p>
+        </div>
+        <p>Reference: <a href="https://en.wikipedia.org/wiki/Cupcake">Cupcake on Wikipedia</a></p>
+      </section>
+
+      <section id="media">
+        <h3>Diagrams &amp; Whiteboard Captures</h3>
+
+        <figure>
+          <img src="cupcake_whiteboard.png" alt="Whiteboard sketch of cupcake" width="500">
+          <figcaption>Created by Jane Smith</figcaption>
+        </figure>
+        <figure>
+          <img src="cupcake.png" alt="Cupcake site design mockup" width="500">
+          <figcaption>Proposed site design</figcaption>
+        </figure>
+
+        <h3>Meeting Audio Recording</h3>
+        <audio controls>
+          <source src="850414__newlocknew__wind_winterevening-in-the-yardwind-in-the-treesbushesfencegusts.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+
+        <h3>Meeting Video Recording</h3>
+        <video controls width="600">
+          <source src="logrocket-session.mp4" type="video/mp4">
+          Your browser does not support the video element.
+        </video>
+      </section>
+
+      <section id="feedback">
+        <h3>Post-Meeting Feedback</h3>
+        <form>
+          <fieldset>
+            <legend>Your Info</legend>
+            <label>Name: <input type="text" name="name"></label><br><br>
+            <label>Date attended: <input type="date" name="attended"></label>
+          </fieldset>
+          <br>
+          <fieldset>
+            <legend>How useful was this meeting?</legend>
+            <label><input type="radio" name="rating" value="1"> Not useful</label><br>
+            <label><input type="radio" name="rating" value="2"> Somewhat useful</label><br>
+            <label><input type="radio" name="rating" value="3"> Very useful</label>
+          </fieldset>
+          <br>
+          <fieldset>
+            <legend>Topics for next meeting</legend>
+            <label><input type="checkbox" name="topics" value="flavors"> New flavors</label><br>
+            <label><input type="checkbox" name="topics" value="design"> Site design</label><br>
+            <label><input type="checkbox" name="topics" value="launch"> Launch plan</label>
+          </fieldset>
+          <br>
+          <label for="role">Your role:</label>
+          <select id="role" name="role">
+            <option value="">--Select--</option>
+            <option value="dev">Developer</option>
+            <option value="design">Designer</option>
+            <option value="pm">Project Manager</option>
+          </select>
+          <br><br>
+          <label for="flavor">Favorite cupcake flavor:</label>
+          <input list="flavors" id="flavor" name="flavor">
+          <datalist id="flavors">
+            <option value="Vanilla">
+            <option value="Chocolate">
+            <option value="Red Velvet">
+            <option value="Lemon">
+          </datalist>
+          <br><br>
+          <label for="comments-box">Additional comments:</label><br>
+          <textarea id="comments-box" name="comments" rows="4" cols="40"></textarea>
+          <br><br>
+          <button type="submit">Submit Feedback</button>
+        </form>
+      </section>
+
+    </main>
+
+    <footer>
+      <hr>
+      <p>&copy; 2026 Team Cupcake. Minutes recorded by John Doe.</p>
+      <p>Contact: <a href="mailto:cupcake@example.com">cupcake@example.com</a></p>
+    </footer>
+
   </body>
 </html>
